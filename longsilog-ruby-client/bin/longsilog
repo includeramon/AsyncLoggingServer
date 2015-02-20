@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+me_path = __FILE__
+if File.symlink?(me_path)
+  me_path = File.readlink(me_path)
+end
+
+relative_tapsilog_path = File.expand_path(File.join(File.dirname(me_path), '../lib/longsi'))

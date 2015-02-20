@@ -1,0 +1,6 @@
+{
+	"log_level" : "DEBUG",
+	"channel" : "logging",
+	"host" : "127.0.0.1",
+	"path" : "/var/log/log.txt"
+}
