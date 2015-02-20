@@ -1,6 +1,6 @@
 # AsyncLoggingServer
 
-iLongsilog
+Longsilog
 
 Longsilog is composed of two applications:
 1. Server - This is a simple node.js server which accepts logs through the redis server.
